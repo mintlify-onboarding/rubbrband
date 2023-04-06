@@ -1,19 +1,20 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Documentation Starter Kit",
+  "name": "Rubbrband",
   "logo": {
-    "dark": "/logo/dark.png",
-    "light": "/logo/light.png"
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#0069ED",
-    "light": "#4D9CFF",
-    "dark": "#0050B4"
+    "primary": "#0077FF",
+    "light": "#88BCF9",
+    "dark": "#025EC3", 
+    "anchors":{"from": "#45D5D9", "to": "#006BE0"}
   },
   "topbarCtaButton": {
     "name": "Get Started",
-    "url": "https://github.com/mintlify/starter"
+    "url":  "https://github.com/rubbrband/rubbrband"
   },
   "anchors": [
     {
@@ -22,14 +23,14 @@
       "url": "https://github.com/rubbrband/rubbrband"
     },
     {
-      "name": "Changelog",
-      "icon": "list",
-      "url": "https://mintlify.com"
+      "name": "Blog", 
+      "icon": "pen", 
+      "url": "https://rubbrband.com/#/blog"
     },
     {
       "name": "Community",
       "icon": "discord",
-      "url": "https://mintlify.com/community"
+      "url": "https://discord.gg/BW3R9yK7Fh"
     }
   ],
   "navigation": [
@@ -87,9 +88,8 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "github": "https://github.com/rubbrband/rubbrband",
+    "discord": "https://discord.gg/BW3R9yK7Fh"
   }
   
 }
