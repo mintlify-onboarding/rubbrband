@@ -26,7 +26,7 @@ After doing a training run on LoRA, run the `rubbrband eval` command.
 
 ```
 rubbrband launch lora
-rubbrband eval lora --input-prompt "a man on the moon in style of "
+rubbrband eval lora --input-prompt "a man on the moon in style of <s1><s2>"
 ```
 
 
@@ -47,4 +47,4 @@ rubbrband copy-from lora /home/engineering/output/final_lora.safetensors ./data
 
 ## Sample Image Outputs
 
-![](/images/cli-docs/models/Screen%20Shot%202023-02-21%20at%204.27.05%20PM.png)
+![](/images/cli-docs/models/LoRa.png)

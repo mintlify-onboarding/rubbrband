@@ -15,15 +15,14 @@ With **ControlNet,** you'll be able to pass in a text prompt, and an image that 
 
 For instance, for the text prompt `bird` you'll be able to pass in an outline of the bird you want, like this:
 
-``
 
-![](/images/cli-docs/models/Screen%20Shot%202023-02-24%20at%204.21.42%20PM.png)
+![](/images/cli-docs/models/ControlNet1.png)
 
 
 and you should get images like this as the output:
 
 
-![](/images/cli-docs/models/Screen%20Shot%202023-02-24%20at%204.23.08%20PM.png)
+![](/images/cli-docs/models/ControlNet2.png)
 
 
 If you want to check out a cool usage of ControlNet: you can try it here: [https://scribblediffusion.com](https://scribblediffusion.com)
@@ -75,7 +74,7 @@ The model creators have created a sample dataset called `fill50k` which is shown
 
 `prompt.json` is a json file that indicates to the model how source files should map to target files. 
 
-**Important: This file should include each entry as a single line and** _**it should not be properly formatted as a JSON**_**. Here are the first three lines of the sample file:**
+**Important: This file should include each entry as a single line and** **_it should not be properly formatted as a JSON_** **. Here are the first three lines of the sample file:**
 
 ```
 {"source": "source/0.png", "target": "target/0.png", "prompt": "pale golden rod circle with old lace background"}
