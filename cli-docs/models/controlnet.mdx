@@ -31,7 +31,7 @@ If you want to check out a cool usage of ControlNet: you can try it here: [https
 
 ## Training with a sample dataset
 
-```
+```bash
 rubbrband launch control
 
 # Download some sample data
@@ -45,7 +45,7 @@ Checkpoints are saved to `~/ControlNet/lightning_logs/version_0/checkpoints` in 
 
 To access it:
 
-```
+```bash
 rubbrband enter control
 cd ~/ControlNet/lightning_logs/version_0/checkpoints
 ```
@@ -58,7 +58,7 @@ In order to train **ControlNet**, the dataset folder needs to be structured in a
 
 The model creators have created a sample dataset called `fill50k` which is shown above. You can replicate that folder structure as shown here:
 
-```
+```bash
 .
 ├── prompt.json             # a json file mapping source to target, with a prompt
 ├── source                  # Source files
@@ -76,7 +76,7 @@ The model creators have created a sample dataset called `fill50k` which is shown
 
 **Important: This file should include each entry as a single line and** **_it should not be properly formatted as a JSON_** **. Here are the first three lines of the sample file:**
 
-```
+```bash
 {"source": "source/0.png", "target": "target/0.png", "prompt": "pale golden rod circle with old lace background"}
 {"source": "source/1.png", "target": "target/1.png", "prompt": "light coral circle with white background"}
 {"source": "source/2.png", "target": "target/2.png", "prompt": "aqua circle with light pink background"}

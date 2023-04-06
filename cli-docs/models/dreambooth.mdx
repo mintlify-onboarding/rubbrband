@@ -45,7 +45,7 @@ Training data of five dog photos
 
 * We set sensible defaults for the steps, batch size, and learning rate. Refer to [How do I change default settings?](/cli-docs/models/dreambooth#how-do-i-change-default-settings) for more information.
 
-```
+```bash
 rubbrband train dreambooth --dataset-dir="./data" \
 --class-word="dog" \
 --regularization-prompt="a photo of a dog"
@@ -66,7 +66,7 @@ Output of the prompt "sks dog on the beach"
 * In the `--input-prompt`, make sure the `sks` identifier is in the prompt.  
    * For more information on what `sks` means, refer to [How Does Dreambooth Work?](/cli-docs/models/dreambooth#how-does-dreambooth-work)
 
-```
+```bash
 rubbrband eval dreambooth --input-prompt "sks dog on the beach"
 ```
 
@@ -75,7 +75,7 @@ rubbrband eval dreambooth --input-prompt "sks dog on the beach"
 
 * To save the output image on your local machine
 
-```
+```bash
 rubbrband copy-from dreambooth /home/engineering/samples/ ./data
 ```
 

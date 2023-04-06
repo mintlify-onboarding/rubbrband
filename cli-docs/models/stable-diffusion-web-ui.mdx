@@ -34,7 +34,7 @@ These are just a few of the most interesting features of sd-webui. For a full li
 
 ## How to start the web UI
 
-```
+```bash
 rubbrband web sd-webui
 ```
 
@@ -43,12 +43,12 @@ rubbrband web sd-webui
 
 To import a custom model that is stored at /path/to/mymodel.ckpt, copy the model into the container:
 
-```
+```bash
 # If the model is a Stable Diffusion model
 rubbrband copy-to sd-webui /path/to/mymodel.ckpt /home/engineering/stable-diffusion-webui/models/Stable-diffusion
 ```
 
-```
+```bash
 # If the model is a ControlNet model
 rubbrband copy-to sd-webui /path/to/mymodel.ckpt /home/engineering/stable-diffusion-webui/models/ControlNet
 ```
