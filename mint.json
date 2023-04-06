@@ -11,21 +11,15 @@
     "light": "#4D9CFF",
     "dark": "#0050B4"
   },
-  "topbarLinks": [
-    {
-      "name": "Documentation",
-      "url": "https://mintlify.com/docs"
-    }
-  ],
   "topbarCtaButton": {
     "name": "Get Started",
     "url": "https://github.com/mintlify/starter"
   },
   "anchors": [
     {
-      "name": "API Reference",
-      "icon": "rectangle-terminal",
-      "url": "api-reference"
+      "name": "Github",
+      "icon": "github",
+      "url": "https://github.com/rubbrband/rubbrband"
     },
     {
       "name": "Changelog",
@@ -40,8 +34,43 @@
   ],
   "navigation": [
     {
-      "group": "Home",
-      "pages": ["introduction", "features"]
+      "group": "Getting Started",
+      "pages": [
+        "cli-docs/getting-started/quickstart-guide",
+        "cli-docs/getting-started/introduction"
+      ]
+    },
+    {
+      "group": "Models",
+      "pages": [
+        "cli-docs/models/dreambooth",
+        "cli-docs/models/stable-diffusion-web-ui",
+        "cli-docs/models/controlnet",
+        "cli-docs/models/lora"
+      ]
+    },
+    {
+      "group": "Supported Compute Platforms",
+      "pages": [
+        "cli-docs/supported-compute-platforms/tested-platforms",
+        "cli-docs/supported-compute-platforms/aws",
+        "cli-docs/supported-compute-platforms/lambda-labs-recommended"
+      ]
+    },
+    { 
+      "group": "Reference",
+      "pages": [
+        "cli-docs/reference/installation",
+        "cli-docs/reference/github",
+        "cli-docs/reference/common-problems"
+      ]
+    },
+    {  
+      "group": "Use Cases",
+      "pages": [
+        "cli-docs/use-cases/generating-specific-persons-face",
+        "cli-docs/use-cases/generate-animated-video"
+      ]
     },
     {
       "group": "API Documentation",
@@ -62,4 +91,5 @@
     "github": "https://github.com/mintlify",
     "linkedin": "https://www.linkedin.com/company/mintsearch"
   }
+  
 }
