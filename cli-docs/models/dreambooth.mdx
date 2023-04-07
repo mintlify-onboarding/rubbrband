@@ -3,9 +3,11 @@ title: "Dreambooth"
 description: "Personalize Stable Diffusion with your own images"
 ---
 
+<Frame caption = "Dreambooth trained on 5 images of a dog ">
 ![](/images/cli-docs/models/dreambooth_dog.jpg)
+</Frame>
 
-Dreambooth trained on 5 images of a dog, [source](https://dreambooth.github.io)
+[source](https://dreambooth.github.io)
 
 ## What is Dreambooth?
 
@@ -31,9 +33,10 @@ Dreambooth trained on 5 images of a dog, [source](https://dreambooth.github.io)
 
 ## Training with a sample dataset
 
+<Frame caption = "Training data of five dog photos" >
 ![](/images/cli-docs/models/dreambooth-training-data.jpeg)
+</Frame>
 
-Training data of five dog photos
 
 * Please download the images of the dog [found here](https://drive.google.com/drive/folders/1BO%5Fdyz-p65qhBRRMRA4TbZ8qW4rB99JZ) to the `--dataset-dir` folder.
 
@@ -55,9 +58,9 @@ rubbrband train dreambooth --dataset-dir="./data" \
 
 ## Inference on sample prompts
 
+<Frame caption = "Output of the prompt 'sks dog on the beach' "> 
 ![](/images/cli-docs/models/sks-dog-on-the-beach-0010.jpg)
-
-Output of the prompt "sks dog on the beach"
+</Frame> 
 
 * After doing a training run on Dreambooth, run the `rubbrband eval` command.
 
